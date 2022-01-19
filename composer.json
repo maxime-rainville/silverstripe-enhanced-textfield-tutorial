@@ -1,6 +1,6 @@
 {
-    "name": "silverstripe-module/skeleton",
-    "description": "A skeleton for SilverStripe modules.",
+    "name": "maxime-rainville/silverstripe-enhanced-textfield-tutorial",
+    "description": "A simple tutorial demo",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
@@ -17,17 +17,9 @@
     },
     "autoload": {
         "psr-4": {
-            "SilverStripeModule\\Skeleton\\": "src/",
-            "SilverStripeModule\\Skeleton\\Tests\\": "tests/"
+            "MaximeRainville\\EnhancedTextfield\\": "src/",
+            "MaximeRainville\\EnhancedTextfield\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        },
-        "expose": [
-            "client/dist"
-        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true
